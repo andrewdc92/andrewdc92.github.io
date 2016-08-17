@@ -1,15 +1,35 @@
 /* custom styles */
+
 h1 {
   text-align: center;
+
   text-}
-img {
-  border-radius: 50px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+
+
+#columnone {
+  width: 290px;
+	float: left;
+	padding: 5px 15px;
 }
-.work {
-  margin: 8px;
+#columntwo {
+  width: 294px; /* Account for margins + border values */
+	float: left;
+	padding: 5px 15px;
+	margin: 0px 5px 5px 5px;
+}
+img {
+  border-radius: 30px;
+}
+#columnthree {
+  width: 270px;
+	padding: 5px 15px;
+	float: right;
+  display: static;
+}
+
+body {
+  background-color: #7DFF68;
+  font-family: 'Lalezar', cursive;
 }
 
 h3 {
