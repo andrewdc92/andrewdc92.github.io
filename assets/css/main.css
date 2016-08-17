@@ -10,10 +10,15 @@ p {
 a {
   color: hotpink;
 }
+
+li {
+  padding: 15px;
+}
 #pagewrap {
 	padding: 5px;
 	width: 960px;
 	margin: 10px auto;
+
 }
 
 #columnone {
@@ -33,7 +38,9 @@ a {
 img {
   padding-bottom: 20px;
   padding-left: 30px;
-  border-radius: 30px;
+  /*added border style and color, want to make it fit picture padding
+  border-style: solid;
+  border-color: hotpink; */
   max-width: 100%;
   display:block;
   height: auto;
