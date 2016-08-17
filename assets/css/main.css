@@ -2,35 +2,115 @@
 
 h1 {
   text-align: center;
-
-  text-}
-
+  color: white;
+}
+p {
+  text-align: justify;
+}
+a {
+  color: hotpink;
+}
+#pagewrap {
+	padding: 5px;
+	width: 960px;
+	margin: 10px auto;
+}
 
 #columnone {
   width: 290px;
 	float: left;
 	padding: 5px 15px;
-}
+  border-color: yellow;
+  color: white;
+  }
 #columntwo {
   width: 294px; /* Account for margins + border values */
 	float: left;
 	padding: 5px 15px;
 	margin: 0px 5px 5px 5px;
+  color: white;
 }
 img {
+  padding-bottom: 20px;
+  padding-left: 30px;
   border-radius: 30px;
+  max-width: 100%;
+  display:block;
+  height: auto;
 }
+
 #columnthree {
   width: 270px;
 	padding: 5px 15px;
-	float: right;
+	float: left;
   display: static;
+  color: white;
 }
 
 body {
-  background-color: #7DFF68;
-  font-family: 'Lalezar', cursive;
+  font-family: 'Bitter', serif;
+  background:
+linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px,
+linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px,
+linear-gradient(27deg, #222 5px, transparent 5px) 0px 10px,
+linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px,
+linear-gradient(90deg, #1b1b1b 10px, transparent 10px),
+linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 80%, transparent 75%, #242424 75%, #242424);
+background-color: #131313;
+background-size: 20px 20px;
 }
+
+@media screen and (max-width: 980px) {
+  #columnone {
+		width: 41%;
+		padding: 1% 4%;
+	}
+	#columntwo {
+		width: 41%;
+		padding: 1% 4%;
+		margin: 0px 0px 5px 5px;
+		float: right;
+	}
+
+	#columnthree {
+		clear: both;
+		padding: 1% 4%;
+		width: auto;
+		float: none;
+	}
+}
+@media screen and (max-width: 600px) {
+  #columnone {
+		width: auto;
+		float: none;
+	}
+
+	#columntwo {
+		width: auto;
+		float: none;
+		margin-left: 0px;
+	}
+
+	#columnthree {
+		width: auto;
+		float: none;
+	}
+
+}
+
+@media screen and (max-width: 480px) {
+
+	header {
+		height: auto;
+	}
+	h1 {
+		font-size: 2em;
+	}
+
+	}
+
+}
+
 
 h3 {
   margin: 8px;
