@@ -1,4 +1,8 @@
-# Learn Git Training
+Andrew Cordivari
+
+I enjoyed this! I made the page responsive for three different screen size parameters, added all of the links, and created a cool background template. I will probably ditch the 3 column theme in the future as it made creative growth a bit difficult. I would have installed bootstrap and added some cool buttons! Definitely looking forward to growing and expanding the functionality and aesthetics. 
+
+
 
 1. Create a fork of the [this](https://github.com/sf-wdi-31/personal-portfolio) by clicking "Fork" on the top right.
 

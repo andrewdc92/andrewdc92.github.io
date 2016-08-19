@@ -3,6 +3,8 @@
 h1 {
   text-align: center;
   color: white;
+  height: 100px;
+  padding: 0 15px;
 }
 p {
   text-align: justify;
@@ -25,7 +27,6 @@ li {
   width: 290px;
 	float: left;
 	padding: 5px 15px;
-  border-color: yellow;
   color: white;
   }
 #columntwo {
@@ -36,7 +37,7 @@ li {
   color: white;
 }
 img {
-  padding-bottom: 20px;
+  /*padding-bottom: 20px;
   padding-left: 30px;
   /*added border style and color, want to make it fit picture padding
   border-style: solid;
@@ -44,6 +45,7 @@ img {
   max-width: 100%;
   display:block;
   height: auto;
+  border-radius: 80%;
 }
 
 #columnthree {
@@ -68,6 +70,9 @@ background-size: 20px 20px;
 }
 
 @media screen and (max-width: 980px) {
+  #pagewrap {
+		width: 94%;
+
   #columnone {
 		width: 41%;
 		padding: 1% 4%;
@@ -113,10 +118,6 @@ background-size: 20px 20px;
 	h1 {
 		font-size: 2em;
 	}
-
-	}
-
-}
 
 
 h3 {
