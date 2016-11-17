@@ -1,5 +1,12 @@
 /* custom styles */
+a.brand-logo {
+  font-size: 1.5em !important;
+  font-family: 'Righteous';
+}
 
+body {
+  font-family: 'Lora', serif;
+}
 h1 {
   text-align: center;
   color: white;
@@ -8,12 +15,30 @@ h1 {
 }
 p {
   text-align: justify;
+  font-family: 'Lora', serif;
+}
+
+span {
+  font-family: 'Roboto', sans-serif;
+}
+#background {
+  text-align: justify;
+  margin: 50px;
 }
 a {
   color: hotpink;
 }
 .nav-wrapper {
   background-color: black;
+}
+#bio {
+  padding: 0 80px 0 80px;
+  text-align: justify;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  border-color: black ;
+  border-width: thick;
+
 }
 
 li {
@@ -26,95 +51,9 @@ li {
 
 }
 
-#columnone {
-  width: 290px;
-	float: left;
-	padding: 5px 15px;
-  color: white;
-  }
-#columntwo {
-  width: 294px; /* Account for margins + border values */
-	float: left;
-	padding: 5px 15px;
-	margin: 0px 5px 5px 5px;
-  color: white;
-}
 img {
-  /*padding-bottom: 20px;
-  padding-left: 30px;
-  /*added border style and color, want to make it fit picture padding
-  border-style: solid;
-  border-color: hotpink; */
   max-width: 100%;
   display:block;
   height: auto;
   border-radius: 80%;
-}
-
-#columnthree {
-  width: 270px;
-	padding: 5px 15px;
-	float: left;
-  display: static;
-  color: white;
-}
-
-body {
-  font-family: 'Bitter', serif;
-
-}
-
-@media screen and (max-width: 980px) {
-  #pagewrap {
-		width: 94%;
-
-  #columnone {
-		width: 41%;
-		padding: 1% 4%;
-	}
-	#columntwo {
-		width: 41%;
-		padding: 1% 4%;
-		margin: 0px 0px 5px 5px;
-		float: right;
-	}
-
-	#columnthree {
-		clear: both;
-		padding: 1% 4%;
-		width: auto;
-		float: none;
-	}
-}
-@media screen and (max-width: 600px) {
-  #columnone {
-		width: auto;
-		float: none;
-	}
-
-	#columntwo {
-		width: auto;
-		float: none;
-		margin-left: 0px;
-	}
-
-	#columnthree {
-		width: auto;
-		float: none;
-	}
-
-}
-
-@media screen and (max-width: 480px) {
-
-	header {
-		height: auto;
-	}
-	h1 {
-		font-size: 2em;
-	}
-
-
-h3 {
-  margin: 8px;
 }
