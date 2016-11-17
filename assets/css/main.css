@@ -18,6 +18,13 @@ p {
   font-family: 'Lora', serif;
 }
 
+footer  {
+  background-color: black !important;
+  flex: 1 0 auto;
+  text-align: center;
+  font-family: 'Righteous';
+}
+
 span {
   font-family: 'Roboto', sans-serif;
 }
