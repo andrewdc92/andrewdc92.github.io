@@ -44,7 +44,7 @@ body {
 
 a.brand-logo {
   font-size: 1.5em !important;
-  font-family: 'Righteous';
+  font-family: 'Bungee', cursive;
 }
 
 h6 {
@@ -52,14 +52,14 @@ text-align: left;
 }
 #allSkillz1, #allSkillz2 {
   text-align: right;
-  float: right;
+  float: left;
 }
 #favs {
   text-align: right;
 }
 hr {
   width: 100%;
-  padding-top: 3em;
+  padding-top: 2em;
   padding-bottom: 2em;
   display: flex;
   color: white;
@@ -74,7 +74,7 @@ i {
 
 #myName {
   color: black;
-  font-family: 'Lora', serif;
+  font-family: 'Bungee', cursive;
   font-weight: bold !important;
   text-align: center;
 }
@@ -111,7 +111,7 @@ p {
 footer  {
   background-color: black !important;
   text-align: center;
-  font-family: 'Righteous';
+  font-family: 'Bungee', cursive;
   overflow: hidden;
 }
 
