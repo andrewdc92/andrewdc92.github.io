@@ -1,11 +1,101 @@
-/* custom styles */
+
+html{
+  background: black;
+  height: 100%;
+  position: static;
+  overflow: scroll;
+}
+body {
+  overflow: hidden;
+}
+#shapeHolder {
+  margin-left: 4em;
+  position: relative;
+}
+.container2{
+  height: 130px;
+  width: 130px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -150px 0 0 -150px;
+}
+
+.square{
+  height: 94%;
+  width: 94%;
+  background: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -47% 0 0 -47%;
+}
+
+.black{
+  background: black;
+  animation: rotate 13s infinite linear;
+}
+
+@keyframes rotate{
+  0%{ transform: rotate(90deg); }
+	100%{ transform: rotate(180deg); }
+}/* custom styles */
+
+
 a.brand-logo {
   font-size: 1.5em !important;
   font-family: 'Righteous';
 }
 
-body {
+h6 {
+text-align: left;
+}
+#allSkillz1, #allSkillz2 {
+  text-align: right;
+  float: right;
+}
+#favs {
+  text-align: right;
+}
+hr {
+  width: 100%;
+  padding-top: 3em;
+  padding-bottom: 2em;
+  display: flex;
+  color: white;
+  border: none;
+}
+i {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 20px;
+}
+
+
+#myName {
+  color: black;
   font-family: 'Lora', serif;
+  font-weight: bold !important;
+  text-align: center;
+}
+
+#myIcons {
+  text-align: center;
+}
+
+ #midCol1 {
+  text-align: justify;;
+  padding-left: 2em;
+}
+#midCol2 {
+  text-align: justify;
+  padding-left: 4em;
+  float: right;
+}
+
+html, document {
+  font-family: 'Lora', serif;
+  background-color: #FFFFFF;
 }
 h1 {
   text-align: center;
@@ -20,9 +110,9 @@ p {
 
 footer  {
   background-color: black !important;
-  flex: 1 0 auto;
   text-align: center;
   font-family: 'Righteous';
+  overflow: hidden;
 }
 
 span {
@@ -32,11 +122,13 @@ span {
   text-align: justify;
   margin: 50px;
 }
-a {
-  color: hotpink;
+#projectz {
+  text-align: left;
 }
+
 .nav-wrapper {
-  background-color: black;
+  background-color: white;
+  font-size: 2em;
 }
 #bio {
   padding: 0 80px 0 80px;
@@ -49,14 +141,15 @@ a {
 }
 
 li {
-  padding: 15px;
+  padding: 0px;
 }
 #pagewrap {
 	padding: 5px;
 	width: 960px;
 	margin: 10px auto;
-
+  overflow: hidden;
 }
+
 
 img {
   max-width: 100%;
