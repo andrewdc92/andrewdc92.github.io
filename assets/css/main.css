@@ -5,19 +5,28 @@ html{
   position: static;
   overflow: scroll;
 }
+
+html, document {
+  font-family: 'Lora', serif;
+  background-color: #FFFFFF;
+}
 body {
   overflow: hidden;
+  min-height: 100%;
 }
 .page-footer, .footer-copyright {
   background-color: white !important;
   text-align: center;
   font-family: 'Bungee', cursive;
   overflow: hidden;
-  min-width: 100% !important;
+  /*min-width: 100% !important;*/
   color: black !important;
+  clear: both;
+  position: sticky;
+  bottom: 0;
 }
 #shapeHolder {
-  margin-left: 8em;
+  margin-left: 9em;
   position: relative;
 }
 .container2{
@@ -112,10 +121,7 @@ i {
   padding-top: 1em;
 }
 
-html, document {
-  font-family: 'Lora', serif;
-  background-color: #FFFFFF;
-}
+
 h1 {
   text-align: center;
   color: white;
