@@ -8,8 +8,16 @@ html{
 body {
   overflow: hidden;
 }
+.page-footer, .footer-copyright {
+  background-color: white !important;
+  text-align: center;
+  font-family: 'Bungee', cursive;
+  overflow: hidden;
+  min-width: 100% !important;
+  color: black !important;
+}
 #shapeHolder {
-  margin-left: 4em;
+  margin-left: 8em;
   position: relative;
 }
 .container2{
@@ -49,13 +57,20 @@ a.brand-logo {
 
 h6 {
 text-align: left;
+padding-top: 1.5em;
+
 }
 #allSkillz1, #allSkillz2 {
   text-align: right;
-  float: left;
-}
+padding-top: .4em;}
+
 #favs {
+  float: right;
   text-align: right;
+  font-weight: bold;
+  /*padding-top: .4em;}*/
+
+  /*padding-bottom: 10px;*/
 }
 hr {
   width: 100%;
@@ -92,6 +107,10 @@ i {
   padding-left: 4em;
   float: right;
 }
+#projectz {
+  text-align: left;
+  padding-top: 1em;
+}
 
 html, document {
   font-family: 'Lora', serif;
@@ -108,12 +127,6 @@ p {
   font-family: 'Lora', serif;
 }
 
-footer  {
-  background-color: black !important;
-  text-align: center;
-  font-family: 'Bungee', cursive;
-  overflow: hidden;
-}
 
 span {
   font-family: 'Roboto', sans-serif;
@@ -122,10 +135,6 @@ span {
   text-align: justify;
   margin: 50px;
 }
-#projectz {
-  text-align: left;
-}
-
 .nav-wrapper {
   background-color: white;
   font-size: 2em;
