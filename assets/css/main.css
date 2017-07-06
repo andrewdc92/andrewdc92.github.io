@@ -184,17 +184,28 @@ text-align: left;
 padding-top: 1.5em;
 
 }
-#allSkillz1, #allSkillz2 {
-  text-align: right;
-padding-top: .4em;}
+
+#allSkillz1 {
+padding-top: 4em;
+margin-top: -55px;
+margin-left: 17em;
+float: right;
+}
+ #allSkillz2 {
+ padding-top: .4em;
+ margin-top: -10em;
+ margin-left: 3em;
+ }
 
 #favs {
   float: right;
-  text-align: right;
   font-weight: bold;
-  /*padding-top: .4em;}*/
+  padding-right: 7em;
+}
 
-  /*padding-bottom: 10px;*/
+#proj-header {
+  text-align: center;
+    margin-right: 12em;
 }
 hr {
   width: 100%;
